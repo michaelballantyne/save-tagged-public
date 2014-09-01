@@ -1,7 +1,7 @@
 Check out this repository in
 
 ```
-plugins/michaelballantyne
+plugins/
 ```
 
 Within your node.js tiddlywiki folder.
