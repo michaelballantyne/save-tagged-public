@@ -1,7 +1,7 @@
 title: $:/plugins/michaelballantyne/save-tagged-public/template
 
 \define saveTiddlerFilter()
-$:/DefaultTiddlers $:/SiteTitle $:/SiteSubtitle [tag[public]] $:/core [field:title/^\$:\/themes/] [field:title/^\$:\/plugins/] +[is[tiddler]] -[prefix[$:/state/popup/]] -[[$:/HistoryList]] -[[$:/boot/boot.css]] -[type[application/javascript]library[yes]] -[[$:/boot/boot.js]] -[[$:/boot/bootprefix.js]] +[sort[title]]
+$:/DefaultTiddlers $:/SiteTitle $:/SiteSubtitle [tag[public]] $:/core [field:title/^\$:\/themes/] [field:title/^\$:\/plugins/] +[is[tiddler]] -[prefix[$:/plugins/tiddlywiki/tiddlyweb]] -[prefix[$:/state/popup/]] -[[$:/HistoryList]] -[[$:/boot/boot.css]] -[type[application/javascript]library[yes]] -[[$:/boot/boot.js]] -[[$:/boot/bootprefix.js]] +[sort[title]]
 
 \end
 {{$:/core/templates/tiddlywiki5.html}}
